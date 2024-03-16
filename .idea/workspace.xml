@@ -4,32 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7b81b48-c518-4d0f-96ba-0ae73c97f6f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lcdlfc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfg/osenv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfg/webbrowser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.targets.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/install-poetry.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lacasa/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lacasa/votaciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webbrowser/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webbrowser/app/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webbrowser/driver/.gitkeep" afterDir="false" />
+    <list default="true" id="f7b81b48-c518-4d0f-96ba-0ae73c97f6f4" name="Changes" comment="Proceso inicial para ejecutar votaciones">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.targets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/example.targets.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lacasa/votaciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/lacasa/votaciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +111,20 @@
       <option name="presentableId" value="Default" />
       <updated>1710359566280</updated>
       <workItem from="1710359573586" duration="7647000" />
-      <workItem from="1710368764583" duration="29546000" />
+      <workItem from="1710368764583" duration="30130000" />
+      <workItem from="1710426203878" duration="44000" />
+      <workItem from="1710467140969" duration="6297000" />
+      <workItem from="1710539414462" duration="13585000" />
     </task>
+    <task id="LOCAL-00001" summary="Proceso inicial para ejecutar votaciones">
+      <option name="closed" value="true" />
+      <created>1710403744050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710403744050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +141,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Proceso inicial para ejecutar votaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proceso inicial para ejecutar votaciones" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -162,7 +157,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lcdlfc$main.coverage" NAME="main Coverage Results" MODIFIED="1710402959700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lcdlfc$main.coverage" NAME="main Coverage Results" MODIFIED="1710552956941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lcdlfc$webbrowser.coverage" NAME="webbrowser Coverage Results" MODIFIED="1710375678017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfg" />
     <SUITE FILE_PATH="coverage/lcdlfc$osname.coverage" NAME="osname Coverage Results" MODIFIED="1710370658846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfg" />
     <SUITE FILE_PATH="coverage/lcdlfc$dotenv.coverage" NAME="dotenv Coverage Results" MODIFIED="1710370575380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfg" />

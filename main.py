@@ -18,7 +18,7 @@ def set_logger_datetime(record):
 
 logger.configure(patcher=set_logger_datetime)
 logger.add(
-    f"logs/lcdlfc_{pendulum.now("America/Bogota").to_iso8601_string()}.log",
+    f"logs/lcdlfc_{pendulum.now('America/Bogota').to_iso8601_string()}.log",
     rotation="20 MB",
     level="DEBUG",
     format="{time} - {level} - {name} - {message}",

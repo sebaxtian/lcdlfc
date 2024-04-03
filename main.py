@@ -51,7 +51,7 @@ def export_data(targets: [Dict[str, Target]]) -> None:
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    num_threads = int(osenv.get("NUM_THREADS")) if int(osenv.get("NUM_THREADS")) < 9 else 8
+    num_threads = int(osenv.get("NUM_THREADS")) if int(osenv.get("NUM_THREADS")) != 8 else 12
     multiples_votos = True if osenv.get("MULTIPLES_VOTOS") == "True" else False
     targets: [Target] = Votaciones.load_targets()
 
